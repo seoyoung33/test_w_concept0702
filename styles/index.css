@@ -1,0 +1,99 @@
+body * {transition:all 0.5s;}
+main #brands {
+    max-width:1199px; 
+    min-width:320px;
+    margin:0 auto;
+    padding:75px 0 0;
+}
+main #brands h2 {font-size:1.25rem; font-weight:600; margin-bottom:11px;}
+main #brands .girl_type {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+main #brands .girl_type .big_img {
+    width:460px; height:527px; text-align:right; padding:13px 12px;
+    background:url(../images/001.png) no-repeat;
+}
+main #brands .girl_type .big_img > a {}
+main #brands .girl_type .big_img > a img {}
+main #brands .girl_type .h_brand {
+    display:flex; flex-flow:column nowrap; justify-content:space-between;
+}
+main #brands .girl_type .h_brand .h_brand_title {}
+main #brands .girl_type .h_brand .h_brand_title h3 {
+    margin-bottom:9px; font-size:1.5rem; font-weight:600;
+}
+main #brands .girl_type .h_brand .h_brand_title > p {font-size:0.875rem;}
+main #brands .girl_type .h_brand .items {
+    display:flex; flex-flow:row nowrap; gap:15px;
+}
+main #brands .girl_type .h_brand .items li {}
+main #brands .girl_type .h_brand .items li .product {}
+main #brands .girl_type .h_brand .items li .product > p {}
+main #brands .girl_type .h_brand .items li .product > p a {}
+main #brands .girl_type .h_brand .items li .product > p a img {}
+main #brands .girl_type .h_brand .items li .product .content {}
+main #brands .girl_type .h_brand .items li .product .content {margin-top:15px;}
+main #brands .girl_type .h_brand .items li .product .content .title {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    align-items:center;
+}
+main #brands .girl_type .h_brand .items li .product .content .title em {
+    font-weight:500;
+}
+main #brands .girl_type .h_brand .items li .product .content .title a {}
+main #brands .girl_type .h_brand .items li .product .content .title a img {}
+main #brands .girl_type .h_brand .items li .product .content > p {
+    margin:5px 0; color:#aaa; font-size:0.875rem;
+}
+main #brands .girl_type .h_brand .items li .product .content .price {}
+main #brands .girl_type .h_brand .items li .product .content .price em {
+    color:#f00; margin-right:19px; font-weight:700;
+}
+main #brands .girl_type .h_brand .items li .product .content .price span {
+    font-weight:600;
+}
+/* section2 */
+main #recommend {
+    max-width:1199px; min-width:320px; margin:0 auto;
+    padding:61px 0;
+}
+main #recommend .rec_title {
+    display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;
+}
+main #recommend .rec_title h2 {font-size:1.25rem; font-weight:600; margin-bottom:11px;}
+main #recommend .rec_title a {}
+main #recommend .product_wrap {}
+main #recommend .product_wrap .items_all {
+    display:flex; flex-flow:row wrap; justify-content:space-between;
+}
+main #recommend .product_wrap .items_all li {}
+main #recommend .product_wrap .items_all li .product {}
+main #recommend .product_wrap .items_all li .product > p {}
+main #recommend .product_wrap .items_all li .product > p a {
+    max-width:100%; height:262px;
+}
+main #recommend .product_wrap .items_all li .product > p a img {
+    width:100%; height:100%;
+}
+main #recommend .product_wrap .items_all li .product .content {
+    margin-top:15px;
+}
+main #recommend .product_wrap .items_all li .product .content .title {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    align-items:center;
+}
+main #recommend .product_wrap .items_all li .product .content .title em {
+    font-weight:500;
+}
+main #recommend .product_wrap .items_all li .product .content .title a {}
+main #recommend .product_wrap .items_all li .product .content .title a img {}
+main #recommend .product_wrap .items_all li .product .content > p {
+    margin:5px 0; color:#aaa; font-size:0.875rem;
+}
+main #recommend .product_wrap .items_all li .product .content .price {}
+main #recommend .product_wrap .items_all li .product .content .price em {
+    color:#f00; margin-right:19px; font-weight:700;
+}
+main #recommend .product_wrap .items_all li .product .content .price span {
+    font-weight:600;
+}

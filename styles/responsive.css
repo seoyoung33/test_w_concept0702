@@ -1,0 +1,21 @@
+@media screen and (max-width:767px) {
+    main #brands {
+        max-width:767px;
+        padding:75px 15px 0;
+    }
+    main #brands .girl_type .h_brand {display:none;}
+    main #recommend {
+        max-width:767px; min-width:320px;
+        padding:30px 15px;
+    }
+    main #recommend .product_wrap .items_all {
+        display:flex; flex-flow:row wrap; justify-content:space-between;
+        gap:10px;
+    }
+    main #recommend .product_wrap .items_all li {
+        width:136.67px; 
+    }
+    main #recommend .product_wrap .items_all li .product > p a {
+        max-width:100%;
+    }
+}
